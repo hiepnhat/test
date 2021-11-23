@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0"> 
+    <title>Store T-Shirt</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    </head>
+<body>
+
+    <div class="header">
+    <div class="container">
+       <div class="navbar">
+         <div class="logo">
+           <a href="index.html"><img src="images/logo.png" width="125px"></a>
+         </div>
+         <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home </a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">ConTact</a></li>
+                <li><a href="account.html">Acco</a></li>
+            </ul>
+        </nav>  
+        <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+       </div>
+       <div class="row">
+        <div class="col-2">
+            <h1>Welcome to us. <br> You can contact me: </h1>
+        </div>
+        <div class="col-2">
+            <img src="images/image1.png">
+        </div>
+    </div>
+    </div>
+    </div> 
+<section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.7659541344874!2d108.08147161430864!3d16.232467639355452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314227232b17d1cf%3A0x3915070a5d2c18fe!2zNSwgNjAxIMSQLiBM4bqhYyBMb25nIFF1w6JuLCBUVC4gTMSDbmcgQ8O0LCBQaMO6IEzhu5ljLCBUaOG7q2EgVGhpw6puIEh14bq_LCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1630382619081!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contact-us">
+      <div class="row">
+          <div class="contact-col">
+              <div>
+                  <i class="fa fa-home"></i>
+                  <span>
+                      <h5>5/601 Lạc Long Quân. Thị trấn Lăng Cô</h5>
+                      <p> Huyện Phú Lộc. Tỉnh Thừa Thiên-Huế. VN</p>
+                  </span>
+              </div>
+              <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>0934867291</h5>
+                    <p> Thứ 2 đến Thứ 7. 7AM - 5PM</p>
+                </span>
+            </div>
+              <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>saubaonam1201@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+          </div>
+<!---<div class="contact-col"> 
+    <form action="">
+        <input type="text" placeholder="Enter your name" required>
+        <input type="email" placeholder="Enter email address" required>
+        <input type="text" placeholder="Enter your subject" required>
+        <textarea rows="8" placeholder="Message" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+    </form>
+</div>--->
+    </div>
+</section>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> Download Out App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+             <div class="app-logo" >
+                 <img src="images/play-store.png">
+                 <img src="images/app-store.png" >
+             </div>
+             </div>
+            <div class="footer-col-2">
+             <img src="images/logo-white.png">
+             <p>Our Purpose Is to Sustainably Make the Pleasure 
+                 and Benefits of Sports Accessible to the Many.
+             </p>
+         </div>
+         <div class="footer-col-3">
+             <h3>Useful Links</h3>
+             <ul>
+                 <li>Coupons</li>
+                 <li>Blog Post</li>
+                 <li>Return Policy</li>
+                 <li>Join Affiliate</li>
+             </ul>
+         </div>
+         <div class="footer-col-4">
+             <h3>Follow us</h3>
+             <ul>
+                 <a href="https://www.facebook.com/nhat.nguyenhiep/">
+                 <li>Facebook</li></a>
+                 <li>Twitter</li>
+                 <li>Instagram</li>
+                 <li>Youtube</li>
+             </ul>
+         </div>
+        </div>
+        <hr>
+        <p class="copyright">Coppyright 2020 - HiepNhat</p>
+    </div>
+</div>
+<!----js for menu---->
+  <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px")
+          {
+              MenuItems.style.maxHeight = "200px";
+          }
+          else {
+              MenuItems.style.maxHeight = "0px";
+          }
+      }
+  </script>
+</header>
